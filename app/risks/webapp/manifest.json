@@ -23,7 +23,23 @@
         "sourceTemplate": {
             "id": "ui5template.fiorielements.v4.lrop",
             "version": "1.0.0"
+        },
+        "crossNavigation": {
+            "inbounds": {
+                "Risks-display": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "Risks",
+                    "action": "display"
+                }
+            }
         }
+    },
+    "sap.cloud": {
+        "public": true,
+        "service": "cpapp.service"
     },
     "sap.ui": {
         "technology": "UI5",
